@@ -10,6 +10,7 @@ use MattDaneshvar\Survey\Contracts\Survey as SurveyContract;
 
 class Survey extends Model implements SurveyContract
 {
+    use Spatie\Translatable\HasTranslations;
     /**
      * Survey constructor.
      *
